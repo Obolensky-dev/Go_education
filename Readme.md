@@ -2,9 +2,9 @@
 
 **Дисклеймер: Данный карткий курс по основам Go был подготовлен и аккуратно собран мной в формате серии книг Sams Teach Yourself C in 21 Days (которые мне очень нравятся) на основе плана составленного ChatGPT, предоставленной им информации и доработанной DeepSeek, он не претендует на идеальный и правильный, скорее всего там могут быть ошибки!**
 
-В каталоге <a href="http://10.0.0.105:3000/Obolensky-dev/Go_education/src/branch/master/Exercise">Exercise</a> содержатся примеры выполненных мной заданий
+В каталоге <a href="https://github.com/Obolensky-dev/Go_education/tree/master/Exercise">Exercise</a> содержатся примеры выполненных мной заданий
 
-## <a href="http://10.0.0.105:3000/Obolensky-dev/Go_education/src/branch/master/Lessons.md">Курс и упражнения</a>
+## <a href="https://github.com/Obolensky-dev/Go_education/blob/master/Lessons.md">Курс и упражнения</a>
 
 ## **Соджержание**
 
