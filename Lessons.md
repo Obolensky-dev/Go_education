@@ -336,6 +336,7 @@ fmt.Println(nums) // [10 20 30 40]
 grades := map[string]int{
     "Alice": 90,
     "Bob":   85,
+```
 
 ## Получение значения по ключу
 
