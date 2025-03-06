@@ -1,6 +1,6 @@
 **Изучаем Go за 21 день**
 
-##<a href="http://http://10.0.0.105:3000/Obolensky-dev/Go_education/src/branch/master/Lessons.md">Курс и упражнения</a>
+## <a href="http://10.0.0.105:3000/Obolensky-dev/Go_education/src/branch/master/Lessons.md">Курс и упражнения</a>
 
 ## **Соджержание**
 
