@@ -937,7 +937,7 @@ if exists {
 delete(grades, "Bob") // Удаление элемента с ключом "Bob"
 ```
 
-## Итерация по карте
+## Пример 1: Итерация по карте
 
 Для перебора всех элементов карты используйте цикл `for` с `range`:
 
@@ -962,6 +962,16 @@ for _, word := range words {
 }
 
 fmt.Println(wordCount) // map[go:2 hello:3 world:2]
+```
+## Пример 3: Добавление в карту значений
+В карты можно добавлять значения
+
+```go
+wordCount := make(map[string]int) // Создаём карту 
+
+wordCount["go"] = 1
+
+fmt.Println(wordCount) // map[go:1]
 ```
 
 ## Самостоятельная работа
