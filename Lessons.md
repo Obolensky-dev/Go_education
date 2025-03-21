@@ -1106,28 +1106,25 @@ func main() {
 
 ### **Дополнительные операции со слайсом структур:**
 
-    **Изменение элемента слайса:**
+### **Изменение элемента слайса:**
 
 ```go
-    people[0].Age = 26
+people[0].Age = 26
 ```
-    **Удаление элемента из слайса:**
+### **Удаление элемента из слайса:**
 
 ```go
-
-    people = append(people[:1], people[2:]...)
+people = append(people[:1], people[2:]...)
 ```
-    **Сортировка слайса структур:**
+### **Сортировка слайса структур:**
     Вы можете использовать пакет sort для сортировки слайса по определенному полю структуры.
 
 ```go
-
-    import "sort"
-
-    // Сортировка по возрасту
-    sort.Slice(people, func(i, j int) bool {
-        return people[i].Age < people[j].Age
-    })
+import "sort"
+  // Сортировка по возрасту
+  sort.Slice(people, func(i, j int) bool {
+    return people[i].Age < people[j].Age
+  })
 ```
 ---
 
