@@ -1063,6 +1063,72 @@ func main() {
     fmt.Println(emp.Address.City) // Вывод: Москва
 }
 ```
+### **Пример 4: Сравнение структур**
+
+```go
+d1 := Student{"Albert", 1}
+d2 := Student{"Albert", 2}
+fmt.Println(d1 == d2) // false
+```
+
+### **Пример 5: Создание слайса структур**
+
+```go
+package main
+
+import (
+	"fmt"
+)
+
+// Определяем структуру Person
+type Person struct {
+	Name string
+	Age  int
+}
+
+func main() {
+	// Создаем слайс структур Person
+	people := []Person{
+		{Name: "Alice", Age: 25},
+		{Name: "Bob", Age: 30},
+		{Name: "Charlie", Age: 35},
+	}
+
+	// Добавляем новую структуру в слайс
+	people = append(people, Person{Name: "David", Age: 40})
+
+	// Итерируемся по слайсу и выводим информацию о каждом человеке
+	for _, person := range people {
+		fmt.Printf("Name: %s, Age: %d\n", person.Name, person.Age)
+	}
+}
+```
+
+### **Дополнительные операции со слайсом структур:**
+
+    **Изменение элемента слайса:**
+    ```go
+    people[0].Age = 26
+```
+    **Удаление элемента из слайса:**
+    ```go
+
+    people = append(people[:1], people[2:]...)
+```
+    **Сортировка слайса структур:**
+    Вы можете использовать пакет sort для сортировки слайса по определенному полю структуры.
+    ```go
+
+    import "sort"
+
+    // Сортировка по возрасту
+    sort.Slice(people, func(i, j int) bool {
+        return people[i].Age < people[j].Age
+    })
+```
+
+
+
 
 ---
 
